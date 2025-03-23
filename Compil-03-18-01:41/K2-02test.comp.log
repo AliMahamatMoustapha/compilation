@@ -1,0 +1,6 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 4:5 mismatched input '(' expecting {';', NEWLINE}
+line 4:7 extraneous input 'int' expecting {'-', '(', ENTIER, IDENTIFIANT}
+line 4:14 mismatched input 'int' expecting {'-', '*', '/', '%', '+', ')'}
+## Erreur : la variable "y" n'existe pas
+Problems calling org.antlr.v4.gui.TestRig.main(args)

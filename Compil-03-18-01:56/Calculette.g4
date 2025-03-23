@@ -242,13 +242,12 @@ branchements returns [String code]:
     'if' '('condition')' 'then' instruction
         {
             String sifaux = newLabel();
-            $code = $condition.code + "JUMPF " + sifaux + $instruction.code +  "LABEL " + sifaux ;
+            $code = $condition.code +"JUMPF " + sifaux + $instruction.code +  "LABEL " + sifaux;
         }
-    |'if' '('condition')' 'then' a=instruction NEWLINE* 'else' b=instruction
+    |'if' '('condition')' 'then' a=instruction NEWLINE+ 'else' b=instruction
         {
-            String sifaux = newLabel();
-            String finIf = newLabel();
-            $code = $condition.code + "JUMPF " + sifaux + $a.code + "JUMP " + finIf + "LABEL " + sifaux +  $b.code + "LABEL " + finIf;
+             String sinon = newLabel();
+            $code = $condition.code + "JUMPF " + sinon + $a.code + "LABEL " + sinon +  $b.code;
         }
 ;
 // regle de boucle for 

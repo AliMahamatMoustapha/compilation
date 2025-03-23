@@ -1,0 +1,6 @@
+PUSHI 0 
+nullPUSHI 42
+WRITE
+POP 
+HALT
+

@@ -1,0 +1,6 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 2:5 mismatched input '(' expecting {';', NEWLINE}
+line 2:6 extraneous input 'int' expecting {'-', '(', ENTIER, IDENTIFIANT}
+line 2:14 extraneous input '{' expecting {';', NEWLINE}
+line 3:9 no viable alternative at input 'returnx'
+line 4:0 mismatched input '}' expecting {<EOF>, '-', '(', 'input(', 'output(', '{', 'while', 'if', 'for', ';', NEWLINE, ENTIER, IDENTIFIANT}

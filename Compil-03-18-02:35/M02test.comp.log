@@ -1,0 +1,11 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+Erreur : Variable "fact" de type int déjà définie GLOBAL
+line 3:8 mismatched input '(' expecting {';', NEWLINE}
+line 3:9 extraneous input 'int' expecting {'-', '(', ENTIER, IDENTIFIANT}
+line 3:17 extraneous input '{' expecting {';', NEWLINE}
+line 4:25 no viable alternative at input 'if(x<1)thenreturn1'
+line 4:8 mismatched input '<' expecting {'-', '*', '/', '%', '+', ')'}
+line 4:11 mismatched input ')' expecting {';', NEWLINE}
+line 5:9 no viable alternative at input 'returnx'
+line 5:17 mismatched input '(' expecting {';', NEWLINE}
+line 6:0 mismatched input '}' expecting {<EOF>, '-', '(', 'input(', 'output(', '{', 'while', 'if', 'for', ';', NEWLINE, ENTIER, IDENTIFIANT}

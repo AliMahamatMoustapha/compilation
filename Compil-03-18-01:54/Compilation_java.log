@@ -1,0 +1,7 @@
+CalculetteParser.java:1348: error: not a statement
+				            String false = newLabel();
+				            ^
+CalculetteParser.java:1348: error: ';' expected
+				            String false = newLabel();
+				                  ^
+2 errors

@@ -1,0 +1,8 @@
+PUSHI 0 
+PUSHI 0 
+PUSHI 0 
+PUSHG 0
+nullnullnullPUSHI 2
+nullnullPUSHG 0
+HALT
+
